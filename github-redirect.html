@@ -29,11 +29,16 @@ limitations under the License.
 
   <!-- Import and configure the Firebase SDK -->
   <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
-  <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-  <script src="/__/firebase/5.5.2/firebase-app.js"></script>
-  <script src="/__/firebase/5.5.2/firebase-auth.js"></script>
-  <script src="/__/firebase/init.js"></script>
-
+  <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
+  <!-- <script src="/__/firebase/5.5.2/firebase-app.js"></script>
+  <!-- <script src="/__/firebase/5.5.2/firebase-auth.js"></script>
+  <!-- <script src="/__/firebase/init.js"></script> -->
+  <!-- Firebase App is always required and must be first -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+  <!-- Add additional services that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+  <script src="https://quickstartproject-try1.firebaseapp.com/__/firebase/init.js"></script>
+                
   <script type="text/javascript">
 
     /**
